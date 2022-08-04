@@ -17,7 +17,9 @@ function Usuario({ usuario }) {
             <h1 className="usuario-name"> {usuario.name}</h1>
             <p className="bio"> {usuario.bio}</p>
             <p>Seguidores: {usuario.followers}</p>
+            <p>Seguindo: {usuario.following}</p>
             <p className="repos">Repositórios: {usuario.public_repos}</p>
+            <p>Localização: {usuario.location}</p>
           </div>
         </div>
       </div>
